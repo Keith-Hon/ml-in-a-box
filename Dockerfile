@@ -14,3 +14,5 @@ COPY ./ml_in_a_box.sh ./ml_in_a_box.sh
 RUN chmod +x ./ml_in_a_box.sh
 # run the script
 RUN ./ml_in_a_box.sh
+# run bash by default
+CMD ["/bin/bash"]
