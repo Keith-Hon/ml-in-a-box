@@ -9,7 +9,7 @@
 # torchaudio            0.12.1           (pip)
 # tensorflow            2.9.2            (pip)
 # jax                   0.3.17           (pip)
-# transformers          4.21.3           (pip)
+# transformers          4.26.1           (pip)
 # datasets              2.4.0            (pip)
 # jupyterlab            3.4.6            (pip)
 # numpy                 1.23.2           (pip)
@@ -185,7 +185,7 @@
     # Based on https://huggingface.co/docs/transformers/installation
     # Based on https://huggingface.co/docs/datasets/installation
 
-    $PIP_INSTALL transformers==4.21.3 datasets==2.4.0
+    $PIP_INSTALL transformers==4.26.1 datasets==2.4.0
 
 
 # ==================================================================
