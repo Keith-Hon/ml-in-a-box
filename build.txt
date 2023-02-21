@@ -1,0 +1,2 @@
+docker buildx build . -t keithhon/ml-in-a-box --platform=linux/amd64 --no-cache --progress=plain
+docker push keithhon/ml-in-a-box:latest
