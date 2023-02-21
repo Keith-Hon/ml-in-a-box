@@ -1,2 +1,2 @@
-docker buildx build . -t keithhon/ml-in-a-box --platform=linux/amd64 --no-cache --progress=plain
+docker buildx build . -t keithhon/ml-in-a-box --platform=linux/amd64 --no-cache --progress=plain --driver-opt env.BUILDKIT_STEP_LOG_MAX_SIZE=104857600
 docker push keithhon/ml-in-a-box:latest
