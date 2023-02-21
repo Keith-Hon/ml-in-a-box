@@ -26,4 +26,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: keithhon/ml-in-a-box:0.0.3
+          tags: keithhon/ml-in-a-box:0.0.4
