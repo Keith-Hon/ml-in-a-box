@@ -10,6 +10,8 @@
 # tensorflow            2.9.2            (pip)
 # jax                   0.3.17           (pip)
 # transformers          4.26.1           (pip)
+# accelerate            0.16.0           (pip)
+# bitsandbytes          0.35.0           (pip)
 # datasets              2.4.0            (pip)
 # jupyterlab            3.4.6            (pip)
 # numpy                 1.23.2           (pip)
@@ -185,7 +187,7 @@
     # Based on https://huggingface.co/docs/transformers/installation
     # Based on https://huggingface.co/docs/datasets/installation
 
-    $PIP_INSTALL transformers==4.26.1 datasets==2.4.0
+    $PIP_INSTALL transformers==4.26.1 datasets==2.4.0 accelerate==0.16.0 bitsandbytes==0.35.0
 
 
 # ==================================================================
